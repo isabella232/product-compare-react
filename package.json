@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@adobe/cq-react-editable-components": "^1.0.4",
+    "@adobe/cq-spa-component-mapping": "^1.0.3",
+    "@adobe/cq-spa-page-model-manager": "^1.0.7",
     "autoprefixer": "7.1.1",
     "babel-core": "^6.26.3",
     "babel-jest": "20.0.3",
@@ -25,12 +28,13 @@
     "postcss-flexbugs-fixes": "3.0.0",
     "postcss-loader": "3.0.0",
     "promise": "7.1.1",
-    "react": "^15.6.2",
+    "react": "^16.0.0",
     "react-addons-css-transition-group": "^15.6.2",
     "react-addons-transition-group": "^15.6.2",
     "react-dev-utils": "^3.0.2",
-    "react-dom": "^15.6.2",
+    "react-dom": "^16.0.0",
     "react-error-overlay": "^1.0.9",
+    "react-fast-compare": "^2.0.4",
     "react-redux": "^5.0.7",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
@@ -56,6 +60,7 @@
     "test": "node scripts/test.js --env=jsdom"
   },
   "devDependencies": {
+    "aem-clientlib-generator": "^1.4.3",
     "babel-eslint": "^7.2.3",
     "eslint": "^3.19.0",
     "eslint-config-react-app": "^1.0.5",
